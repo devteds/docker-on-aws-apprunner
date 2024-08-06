@@ -79,7 +79,7 @@ aws apprunner create-service --cli-input-yaml file://$PWD/aws/apprunner-nginx-se
 aws apprunner list-services
 ```
 
-Use the `ServiceUrl" from the above respose to hit the app on browser and verify.
+Use the `ServiceUrl` from the `aws apprunner list-services` response to hit the app on browser and verify.
 
 
 ## All done? Let's clean up
@@ -92,7 +92,7 @@ Use the `ServiceUrl" from the above respose to hit the app on browser and verify
 ## Author
 
 - Chandra Shettigar
-
+git 
 
 ## Tools & Versions I used
 
