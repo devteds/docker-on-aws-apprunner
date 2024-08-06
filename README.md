@@ -91,8 +91,10 @@ Use the `ServiceUrl` from the `aws apprunner list-services` response to hit the 
 
 ## Author
 
-- Chandra Shettigar
-git 
+**Chandra Shettigar | Devteds**
+
+- Website: https://devteds.com
+- LinkedIn: https://www.linkedin.com/in/shettigarc
 
 ## Tools & Versions I used
 
