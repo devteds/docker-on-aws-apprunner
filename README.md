@@ -1,6 +1,6 @@
 # Docker on AWS AppRunner
 
-This source code is for the [short course](https://youtu.be/1BZlUneXLCs) that does a walkthrough of creating a simple website, dockerize as nginx image, create AWS ECR repository, push the image to ECR and finally deploy it to AppRunner along with creating necessary IAM resources.
+[Learn how to deploy](https://youtu.be/1BZlUneXLCs) a simple website to AWS App Runner using Docker and NGINX. This project walks you through the steps, from image creation to deployment.
 
 ## Announcement: Course on Kubernetes
 
