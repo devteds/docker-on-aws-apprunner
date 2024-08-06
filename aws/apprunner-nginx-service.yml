@@ -1,12 +1,12 @@
 ServiceName: demo-nginx-service
 SourceConfiguration:
   ImageRepository:
-    ImageIdentifier: <YOUR-AWS-ACCOUNT-ID>.dkr.ecr.<YOUR-AWS-REGION>.amazonaws.com/nginx-ws:v1
+    ImageIdentifier: <AWS-ACCOUNT-ID>.dkr.ecr.<AWS-REGION>.amazonaws.com/nginx-ws:v1
     ImageRepositoryType: ECR
     ImageConfiguration:
       Port: '80'
   AuthenticationConfiguration:
-    AccessRoleArn: arn:aws:iam::<YOUR-AWS-ACCOUNT-ID>:role/demo-apprunner-role
+    AccessRoleArn: arn:aws:iam::<AWS-ACCOUNT-ID>:role/demo-apprunner-role
 InstanceConfiguration:
   Cpu: '256'
   Memory: '512'
