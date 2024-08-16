@@ -58,7 +58,7 @@ Got to the root of the project folder.
 
 ```
 aws iam create-role --role-name demo-apprunner-role --assume-role-policy-document file://$PWD/aws/trust-policy.json
-aws iam create-policy --policy-name demo-apprunner-ecr-policy --policy-document file://$PWD/aws/apprunner-nginx-service.json
+aws iam create-policy --policy-name demo-apprunner-ecr-policy --policy-document file://$PWD/aws/apprunner-ecr-policy.json
 aws iam attach-role-policy --role-name demo-apprunner-role --policy-arn arn:aws:iam:<AWS_ACCOUNT_ID>:poilcy/demo-apprunner-ecr-policy
 ```
 
